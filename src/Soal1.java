@@ -3,15 +3,17 @@ import java.util.Scanner;
 public class Soal1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int pertama;
-        int kedua;
 
         System.out.println("Masukkan angka pertama: ");
-        int pertama = input.nextInt();
+        int angka1 = input.nextInt();
 
-        System.out.println("Masukkan angkat kedua: ");
-        int kedua = input.nextInt();
+        System.out.println("Masukkan angka kedua: ");
+        int angka2 = input.nextInt();
 
-        if (pertama >)
+        int maksimum = Math.max (angka1, angka2);
+        System.out.println("angka maksimum nya adalah: " + maksimum);
+
+        int minimum = Math.min (angka1, angka2);
+        System.out.println("angka minimum nya adalah: " + minimum);
     }
 }
